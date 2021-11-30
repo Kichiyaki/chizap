@@ -19,7 +19,9 @@ func Logger(logger *zap.Logger) func(next http.Handler) http.Handler {
 			}
 			start := time.Now()
 			ww := middleware.NewWrapResponseWriter(w, r.ProtoMajor)
+
 			next.ServeHTTP(ww, r)
+
 			stop := time.Since(start)
 			statusCode := ww.Status()
 			clientUserAgent := r.UserAgent()
