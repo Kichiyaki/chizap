@@ -3,7 +3,7 @@ module github.com/Kichiyaki/chizap
 go 1.17
 
 require (
-	github.com/go-chi/chi/v5 v5.0.4
+	github.com/go-chi/chi/v5 v5.0.7
 	go.uber.org/zap v1.19.0
 )
 
