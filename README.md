@@ -1,3 +1,1 @@
-# chizap
-
-HTTP request logger middleware for [go-chi](https://github.com/go-chi/chi).
+This repository has been moved to https://gitea.dwysokinski.me/Kichiyaki/chizap
